@@ -8,7 +8,8 @@ interface Serial0/0/0
 ip address 209.165.201.2 255.255.255.252
 no shutdown interface Serial0/0/1
 ip address 209.165.202.130 255.255.255.252
-no shutdown Router ISP1 
+no shutdown 
+Router ISP1 
 (R2) 
 interface Loopback0
 ip address 209.165.200.254 255.255.255.255
